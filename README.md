@@ -38,6 +38,7 @@ In this exercise, you will use Copilot Spaces:
 
 1. Add a repository as a source to your Copilot Space
 1. Add instructions to your Copilot Space
+1. Create and use custom chat modes for deep process analysis
 1. Create issues in the repository using Copilot Spaces
 1. Explore and summarize project management process documentation
 1. Update repository documentation based on insights and gaps discovered

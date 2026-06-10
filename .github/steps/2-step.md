@@ -1,8 +1,9 @@
-## Step 2: Explore & summarize project management processes and create a README
+## Step 2: Explore, summarize, and deeply analyze project management processes
 
 In this step you will:
 
 - Explore the process docs in the docs/ folder (e.g., project-lifecycle.md, roles-responsibilities.md, communication-plan.md)
+- Create and use a custom chat mode for deeper process analysis
 - Generate a 3–4 paragraph summary in your Copilot Space (workflows, roles, communication, quality)
 - Use that summary to create/attach the existing issue about the README
 - Create a pull request adding a README that links all process docs and includes the brief overview
@@ -30,13 +31,25 @@ Proceed to the activities and run the provided prompts in your Copilot Space.
 
 ### ⌨️ Activity: Explore the project management process docs and Summarize in your Copilot Space
 
-1. Generate a summary. Should be 3-4 paragraphs covering the main processes OctoAcme uses for project management.
+1. Create a custom chat mode for deep process analysis.
+
+   In your Copilot Space, create a custom chat mode named **Process Analyst** with instructions like:
+
+   ```markdown
+   Focus on process analysis for OctoAcme documentation:
+   - identify workflow stages, handoffs, and dependencies
+   - compare role ownership and accountability boundaries
+   - highlight communication cadence, escalation paths, and decision points
+   - call out process gaps, risks, and concrete improvement actions
+   ```
+
+2. Generate a summary using the **Process Analyst** mode. It should be 3-4 paragraphs covering the main processes OctoAcme uses for project management.
 
    Open your Copilot Space you created in the previous step. https://github.com/copilot/spaces and select **Yours** and select **"OctoAcme Project Management Hub"**
 
    <img width="50%" alt="copilot-spaces-yours" src="../images/copilot-spaces-yours.png" />
 
-2. Start a new conversation in the Copilot Space and prompt the following:
+3. Start a new conversation in the Copilot Space and prompt the following:
 
    <img width="70%" alt="copilot-spaces-conversation-summary" src="../images/copilot-spaces-conversation-summary.png" />
 
@@ -74,7 +87,7 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
 
 3. **Verify the issue is attached**: You should see the issue title and details appear in your conversation
 
-4. **Create the pull request**: Now send this prompt to create the pull request:
+4. **Create the pull request**: Now send this prompt to create the pull request and update documentation with your newly discovered insights:
 
    <img width="80%" alt="repository-issue-pr-creation" src="../images/repository-issue-pr-creation-step2.png" />
 
